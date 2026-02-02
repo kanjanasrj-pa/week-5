@@ -1,0 +1,60 @@
+body {
+    background-color: #E6D5B8;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+nav, footer {
+    background-color: #4B3621;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+nav a { color: #D2B48C; }
+
+main {
+    background-color: #F5F5DC;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.item {
+    display: flex;
+    border: 1px solid #4B3621;
+    background: white;
+    padding: 5px;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.item img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+.Menu { flex: 1; }
+
+button {
+    border: 1px solid black;
+    background: #D2B48C;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.order {
+    margin-top: 15px;
+    padding: 10px;
+    border-top: 2px solid black;
+    text-align: center;
+}
+
+.buy {
+    background-color: #556B2F;
+    color: white;
+    width: 100%;
+}
